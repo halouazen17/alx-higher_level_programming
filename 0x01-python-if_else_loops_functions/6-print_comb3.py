@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for i in range(0, 10):
+for i in range(10):
     for a in range(i, 10):
         if i < a:
             print("{:d}{:d}".format(i, a),
